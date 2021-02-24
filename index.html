@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rave integration example</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1506365558634-e0c754979231?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHNtYWxsJTIwcGhvbmV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="phone" style="width:100%">
+    <h1>Iphone</h1>
+    <p class="price">USh1000</p>
+    <form action="">
+      <input type="hidden" id="amount" name="amount" value="1000">
+      <input type="email" id="email" name="email" placeholder="email">
+      <input type="text" id="phone" placeholder="phone number" name="phone">
+      
+      <script src="https://checkout.flutterwave.com/v3.js"></script>
+      <button type="button" onClick="makePayment()">Pay Now</button>
+    </form>
+   
+    
+  </div>
+  <script src="js/script.js"></script>
+  <script src="js/random.js"></script>
+</body>
+</html>
